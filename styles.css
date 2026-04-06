@@ -219,7 +219,23 @@ ul { list-style: none; }
   border-color: var(--white);
   background: rgba(255,255,255,0.1);
 }
+.btn-outline-dark {
+  background: transparent;
+  color: var(--navy);
+  border: 2px solid var(--gray-300);
+}
+.btn-outline-dark:hover {
+  border-color: var(--navy);
+  background: rgba(27,58,75,0.05);
+}
 .btn-full { width: 100%; }
+.contact-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
 
 /* ===== SECTIONS ===== */
 .section {
