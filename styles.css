@@ -142,12 +142,21 @@ ul { list-style: none; }
   position: relative;
   z-index: 1;
 }
+.hero-box-icon {
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  z-index: 1;
+  opacity: 0.85;
+  pointer-events: none;
+}
 .hero-logo {
-  width: 380px;
+  width: 440px;
   max-width: 90%;
   margin-bottom: 32px;
-  filter: brightness(0) invert(1);
-  opacity: 0.15;
 }
 .hero h1 {
   font-size: clamp(2rem, 5vw, 3.2rem);
@@ -761,6 +770,7 @@ ul { list-style: none; }
   .nav-toggle { display: flex; }
   .hero { min-height: auto; padding: 140px 24px 80px; }
   .hero h1 { font-size: 1.8rem; }
+  .hero-box-icon { width: 100px; height: 100px; top: 90px; left: 16px; }
   .section { padding: 60px 0; }
   .purpose-grid { grid-template-columns: 1fr 1fr; }
   .feelings-grid { grid-template-columns: 1fr; }
